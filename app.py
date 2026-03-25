@@ -100,5 +100,5 @@ if submitted:
  
     except Exception as e:
         st.error(f"Error al procesar las puntuaciones o el modelo: {e}")
- 
+ st.form_submit_button()
  
